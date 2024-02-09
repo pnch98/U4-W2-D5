@@ -1,0 +1,7 @@
+CREATE PROCEDURE DelVerbaleById (@Id int)
+AS
+BEGIN
+	DELETE FROM VERBALE
+	WHERE idverbale = @Id
+END
+GO
